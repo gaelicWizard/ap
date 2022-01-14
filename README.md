@@ -1,4 +1,5 @@
-# AP  [![Build Status](https://travis-ci.org/kssim/ap.svg?branch=master)](https://travis-ci.org/kssim/ap.svg?branch=master)
+# AP  ![Build Status](../../workflows/CI/badge.svg?event=push)
+
 "AP" is [Jekyll](https://jekyllrb.com/) theme for career. This theme is free and open-source.  
 Based on Chester How's tale-theme(https://github.com/chesterhow/tale) with a few new features:  
 * SNS Link
@@ -12,12 +13,12 @@ Based on Chester How's tale-theme(https://github.com/chesterhow/tale) with a few
 
 
 # Preview
-[![AP Screenshot](https://github.com/kssim/ap/blob/master/screenshot.png?raw=true)](https://kssim.github.io/ap/)
+[![AP Screenshot](screenshot.png?raw=true)](https://jdp.cx/)
 
 
 # Usage
 1. Fork and clone the AP repo:
-    * git clone https://github.com/kssim/ap.git
+    * git clone https://github.com/gaelicWizard/ap.git
 2. Install Jekyll:
     * gem install jekyll
 3. Install the theme's dependencies
@@ -77,8 +78,8 @@ Please configure this before using the theme.
 
 
 
-### SNS Information
-Your SNS information to display at the bottom of the page.  
+### Social Networking Information
+Your social networking information to display at the bottom of the page.  
 All values except "email" are text values.  
 ```yml
 social:
@@ -125,4 +126,4 @@ You can use it as you like.
 
 
 ## License
-[The MIT License (MIT)](https://raw.githubusercontent.com/kssim/ap/master/LICENSE)
+[The MIT License (MIT)](LICENSE)
