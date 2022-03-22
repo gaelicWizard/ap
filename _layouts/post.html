@@ -10,7 +10,7 @@ layout: default
 
 </section>
 
-<div class="pagination">
+<nav class="pagination">
   {% if page.next.url %}
     <a href="{{ page.next.url | prepend: site.baseurl }}" class="left next">Prev</a>
   {% endif %}
@@ -19,4 +19,4 @@ layout: default
   {% endif %}
 
   <a href="#" class="top">Top</a>
-</div>
+</nav>

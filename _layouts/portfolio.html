@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="portfolio">
+<main class="portfolio">
   {% for post in paginator.posts %}
     <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-item">
       <div>
@@ -26,9 +26,9 @@ layout: default
     </a>
     </br>
   {% endfor %}
-</div>
+</main>
 
-<div class="pagination">
+<nav class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left next">Prev</a>
   {% endif %}
@@ -37,4 +37,4 @@ layout: default
   {% endif %}
 
   <span>{{ paginator.page }}</span>
-</div>
+</nav>

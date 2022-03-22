@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<div class="about">
-  <div class="profile">
+<main class="about">
+  <aside class="profile p-contact h-card">
     <img class="selfie" alt="{{ site.author.name | default: site.author }}" src="{{ site.author.selfie | default: site.github.owner_gravatar_url }}" />
     <div class="info">
-      <div class="title">{{ site.author.name | default: site.author }}</div>
+      <div class="title p-fn p-name">{{ site.author.name | default: site.author }}</div>
       <div class="description">{{ site.author.desc | default: site.description | default: site.github.project_tagline }}</div>
     </div>
-  </div>
+  </aside>
 
   <section class="content">
     {{ content }}
   </section>
-  <div class="social-layer">
+  <aside class="social-layer">
     <div class="social-icons">
       <ul>
         {% include social.html %}
       </ul>
     </div>
-  </div>
-</div>
+  </aside>
+</main>
