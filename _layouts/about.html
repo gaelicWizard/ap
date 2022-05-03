@@ -4,10 +4,10 @@ layout: default
 
 <main class="about h-resume" itemscope itemtype="https://schema.org/ProfilePage">
   <aside class="profile p-contact h-card">
-    <img class="selfie" alt="{{ site.author.name | default: site.author }}" src="{{ site.author.selfie | default: site.github.owner_gravatar_url }}" />
+    <img class="selfie avatar u-photo" alt="{{ site.author.name | default: site.author }}" src="{{ site.author.selfie | default: site.github.owner_gravatar_url }}" />
     <div class="info">
       <div class="title p-fn p-name">{{ site.author.name | default: site.author }}</div>
-      <div class="description">{{ site.author.desc | default: site.description | default: site.github.project_tagline }}</div>
+      <div class="description p-note">{{ site.author.desc | default: site.description | default: site.github.project_tagline }}</div>
     </div>
     <div class="social-layer">
       <div class="social-icons">
